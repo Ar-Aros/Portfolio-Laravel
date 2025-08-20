@@ -19,20 +19,24 @@ A personal portfolio website built with Laravel.
 4. Open in browser: `http://127.0.0.1:8000`
 
 ## Structure
+## Project Structure
+
+```bash
+resources/
+└── views/
+    ├── layouts/
+    │   └── layout.blade.php       # Master layout
+    ├── home.blade.php             # Home Page
+    ├── about.blade.php            # About Page
+    ├── projects.blade.php         # Projects Page
+    ├── contact.blade.php          # Contact Page
+    └── blog.blade.php             # Blog Page
+
 app/
 └── Http/
-└── Controllers/
-└── PortfolioController.php
+    └── Controllers/
+        └── PortfolioController.php
 
 routes/
 └── web.php
 
-resources/
-└── views/
-├── layouts/
-│ └── layout.blade.php # Master layout
-├── home.blade.php # Home Page
-├── about.blade.php # About Page
-├── projects.blade.php # Projects Page
-├── contact.blade.php # Contact Page
-└── blog.blade.php # Blog Page

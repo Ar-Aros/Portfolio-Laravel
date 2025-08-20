@@ -6,11 +6,11 @@
 A personal portfolio website built with Laravel.
 
 ## Features
-- Home Page (Hero Section)
-- About Page (Short Bio)
-- Projects Page (Static Project Cards)
-- Blog Page (Static Posts)
-- Contact Page (Static Form)
+- Home Page
+- About Page
+- Projects Page
+- Blog Page
+- Contact Page
 
 ## Setup
 1. Clone repo  
@@ -19,7 +19,20 @@ A personal portfolio website built with Laravel.
 4. Open in browser: `http://127.0.0.1:8000`
 
 ## Structure
-- Controller: `PortfolioController`
-- Routes: `routes/web.php`
-- Views: `resources/views/`
-- CSS: `public/css/style.css`
+app/
+└── Http/
+└── Controllers/
+└── PortfolioController.php
+
+routes/
+└── web.php
+
+resources/
+└── views/
+├── layouts/
+│ └── layout.blade.php # Master layout
+├── home.blade.php # Home Page
+├── about.blade.php # About Page
+├── projects.blade.php # Projects Page
+├── contact.blade.php # Contact Page
+└── blog.blade.php # Blog Page

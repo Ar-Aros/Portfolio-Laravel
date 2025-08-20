@@ -1,2 +1,11 @@
-*
-!.gitignore
+    # Laravel specific ignores
+    /vendor
+    .env
+    .env.example
+    /node_modules
+    /public/hot
+    /public/storage
+    /storage/*.key
+    /vendor/.idea
+    Homestead.json
+    Homestead.yaml
